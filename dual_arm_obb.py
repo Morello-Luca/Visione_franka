@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 # 2. POINT CLOUD DATA PREPARATIONS
 
     # 2.1 LOAD PCD
-pcd = o3d.io.read_point_cloud("tesi4_funziona.ply")
+pcd = o3d.io.read_point_cloud("out.ply")
 colors = np.asarray(pcd.colors)
 o3d.visualization.draw_geometries([pcd])
     # 2.2 CROP PCD
